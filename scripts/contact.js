@@ -4,15 +4,15 @@
 
 function thankYouMessage(){
     
-    const contactPage = document.getElementById('contact-page')
-    const thankTheCustomer = document.createElement('p')
+    const contactPage = document.getElementById('contact-page');
+    const thankTheCustomer = document.createElement('p');
     
     
     thankTheCustomer.style.fontSize = '24px';
-    thankTheCustomer.textContent = 'Thank you for your message'
+    thankTheCustomer.textContent = 'Thank you for your message';
 
     contactPage.innerHTML = '';
-    contactPage.appendChild(thankTheCustomer)
+    contactPage.appendChild(thankTheCustomer);
 
 }
 
@@ -22,5 +22,5 @@ document.getElementById('submit-button').addEventListener('click', function(){
     document.getElementById('submit-button').addEventListener('click', function () {
     thankYouMessage();
 
-    })
+    });
 });
