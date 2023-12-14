@@ -14,13 +14,13 @@ function changeDayOfWeek(day) {
     
     const changeDayButton = document.getElementById(day);
 
-    if (!changeDayButton.classList.contains('clicked')) {
+    if (!changeDayButton.classList.contains('clicked')){
         changeDayButton.classList.add('clicked');
         numDays++;
     } 
     
-    else {
-        !changeDayButton.classList.remove('clicked');
+    else 
+        (changeDayButton.classList.remove('clicked'));{
         numDays--;
     }
 
